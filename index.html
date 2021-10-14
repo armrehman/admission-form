@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><h2>J.K.M.B Mallick High school</h2></td>
+            </tr>
+            <tr>
+                <td><h3>Admission Form</h3></td>
+            </tr>
+        </table>
+        <hr>
+        <h2> <b> Personal Information</b></h2>
+        <table cellpadding=10px>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Full Name" required></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Father's Name</td>
+                <td><input type="text" placeholder="Fathers's Name"required></td>
+            </tr>
+            <tr>
+                <td>CNIC</td>
+                <td><input type="number" placeholder="Enter your CNIC" required></td>
+            </tr>
+            <tr>
+                <td>Favourite Color</td>
+                <td><input type="color" placeholder="enter your color" required></td>
+            </tr>
+            <tr>
+                <td>D.O.B</td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>E Mail</td>
+                <td><input type="email" placeholder="Enter your Email" required></td>
+            </tr>
+        </table>
+        <hr>
+        <table cellpadding=10px>
+            <h2>Residential Information</h2>
+            <tr>
+                <td>City Name</td>
+                <td><input type="text" placeholder="Enter your City Name" required></td>
+            </tr>
+            <tr>
+                <td>Province</td>
+                <td>
+                    <select name="province">
+                      <option value="Punjab">Punjab</option>
+                      <option value="Sindh">Sindh</option>
+                      <option value="Balochistan">Balochistan</option>
+                      <option value="sarhad">sarhad</option>
+                      <option value="KPK">KPK</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Countary</td>
+                <td>
+                    <select name="countary" >
+                        <option value="USA" selected>USA</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="England">England</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input name="gender" type="radio" required>Male
+                    <input name="gender" type="radio" required>Female
+                    <input name="gender" type="radio" required>Others
+                </td>
+                
+            </tr>
+        </table>
+        <hr>
+        <table cellpadding=10px>
+            <h2>
+Academic Information
+            </h2>
+<tr>
+<input type="checkbox" name="class" required>Matric
+</tr>
+<br>
+<tr>
+    <input type="checkbox" name="class" required>Inter Completed
+</tr>
+<tr>
+<td>Class :</td>
+<td><input type="text" placeholder="Grade" required></td>
+</tr>
+<tr>
+<td>Name of School</td>
+<td><input type="text" placeholder="ABC School" required></td>
+</tr>      
+        </table>
+<button type="submit">submit</button>
+<button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
